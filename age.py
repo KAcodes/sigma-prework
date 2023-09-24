@@ -1,5 +1,4 @@
 from datetime import datetime
-from dateutil import relativedelta
 
 
 def date_calculator(given_date):
@@ -8,6 +7,3 @@ def date_calculator(given_date):
     days = (now - date).days
     ans = int(days/365)
     return ans
-
-
-date_calculator("2000-11-01")
